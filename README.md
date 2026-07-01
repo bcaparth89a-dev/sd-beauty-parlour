@@ -2,6 +2,8 @@
 
 A modern, fully-featured web application for SD Beauty Parlour built with React, Vite, TypeScript, and TailwindCSS. The project features a stunning, interactive client-facing interface as well as a powerful, secure Admin Panel for complete business operations management.
 
+🌐 **Live Demo:** [https://deluxe-sopapillas-f1869b.netlify.app/](https://deluxe-sopapillas-f1869b.netlify.app/)
+
 ---
 
 ## 🚀 Features
@@ -75,24 +77,24 @@ Make sure you have [Node.js](https://nodejs.org/) installed.
 
 ## 🔑 Environment Variables Reference
 
-| Variable | Description | Example |
-| :--- | :--- | :--- |
-| `VITE_FIREBASE_API_KEY` | Firebase Web API Key | `AIzaSy...` |
-| `VITE_FIREBASE_AUTH_DOMAIN` | Firebase Authentication Domain | `project.firebaseapp.com` |
-| `VITE_FIREBASE_PROJECT_ID` | Firebase Project ID | `sdbeautyparlour` |
-| `VITE_FIREBASE_STORAGE_BUCKET` | Firebase Cloud Storage Bucket | `project.appspot.com` |
-| `VITE_FIREBASE_MESSAGING_SENDER_ID` | Firebase Messaging Sender ID | `208258772032` |
-| `VITE_FIREBASE_APP_ID` | Firebase App ID | `1:2082587...` |
-| `VITE_FIREBASE_MEASUREMENT_ID` | Firebase Google Analytics ID | `G-XXXXXXXXXX` |
-| `VITE_IMGBB_API_KEY` | ImgBB API Key for Image Uploads | `6de629...` |
-| `VITE_ADMIN_EMAIL` | Default Admin login email address | `admin@sdbeauty.com` |
-| `VITE_ADMIN_PASSWORD` | Default Admin login password | `password123` |
-| `VITE_PARLOUR_PHONE` | Direct phone contact | `+917990101983` |
-| `VITE_PARLOUR_WHATSAPP` | Direct WhatsApp phone number (with country code) | `917990101983` |
-| `VITE_PARLOUR_EMAIL` | Business email | `info@sdbeauty.com` |
-| `VITE_PARLOUR_INSTAGRAM` | Instagram business profile link | `https://instagram.com/` |
-| `VITE_PARLOUR_FACEBOOK` | Facebook business page link | `https://facebook.com/` |
-| `VITE_PARLOUR_ADDRESS` | Physical shop address | `SD Beauty Parlour, India` |
+| Variable | Description |
+| :--- | :--- |
+| `VITE_FIREBASE_API_KEY` | Firebase Web API Key |
+| `VITE_FIREBASE_AUTH_DOMAIN` | Firebase Authentication Domain |
+| `VITE_FIREBASE_PROJECT_ID` | Firebase Project ID |
+| `VITE_FIREBASE_STORAGE_BUCKET` | Firebase Cloud Storage Bucket |
+| `VITE_FIREBASE_MESSAGING_SENDER_ID` | Firebase Messaging Sender ID |
+| `VITE_FIREBASE_APP_ID` | Firebase App ID |
+| `VITE_FIREBASE_MEASUREMENT_ID` | Firebase Google Analytics ID |
+| `VITE_IMGBB_API_KEY` | ImgBB API Key for Image Uploads |
+| `VITE_ADMIN_EMAIL` | Default Admin login email address |
+| `VITE_ADMIN_PASSWORD` | Default Admin login password |
+| `VITE_PARLOUR_PHONE` | Direct phone contact |
+| `VITE_PARLOUR_WHATSAPP` | Direct WhatsApp phone number |
+| `VITE_PARLOUR_EMAIL` | Business email |
+| `VITE_PARLOUR_INSTAGRAM` | Instagram business profile link |
+| `VITE_PARLOUR_FACEBOOK` | Facebook business page link |
+| `VITE_PARLOUR_ADDRESS` | Physical shop address |
 
 > [!IMPORTANT]
 > The `.env` file is excluded from git commits using `.gitignore` to prevent leaking secure API keys and admin credentials to GitHub. Always store actual keys locally or in your deployment environment's secret settings.
